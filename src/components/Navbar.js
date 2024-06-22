@@ -15,7 +15,12 @@ const Navbar = () => {
                 </div>
 
                 {/* Right */}
-
+                <div className="">
+                    <ul className="text-white flex items-center gap-1">
+                        <li>Built with</li>
+                        <li> NextJS</li>
+                    </ul>
+                </div>
             </div>
         </div>
     );
