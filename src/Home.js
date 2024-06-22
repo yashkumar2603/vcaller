@@ -24,7 +24,7 @@ const Home = () => {
                     <img src={conf} className="object-cover  w-full h-full" />
                 </div>
                 {/* Overlay */}
-                <div className="absolute h-full w-full flex overflow-hidden bg-black/60"></div>
+                <div className="absolute h-full w-full flex overflow-hidden bg-black/90"></div>
                 {/* Hero Info */}
                 <div className="lg:flex lg:pt-20 flex-col items-center justify-center relative z-10 px-6 md:max-w-[90vw] mx-auto">
                     {/* Main */}
