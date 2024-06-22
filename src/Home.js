@@ -44,6 +44,9 @@ const Home = () => {
                             <label className="text-[30px] md:text-[40px] font-bold pt-6">
                                 Enter Room Code
                             </label>
+                            <label className="text-[20px] md:text-[15px] pt-4">
+                                Or create one by typing any number which you can then share to others for them to join.
+                            </label>
                             <input
                                 type="text"
                                 required
