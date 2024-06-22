@@ -7,7 +7,7 @@ const Navbar = () => {
                 {/* Left */}
                 <div className="flex items-center">
                     <div className="flex w-[3rem] h-[3rem] bg-white rounded-full">
-                        <img src={logo} alt="" className="object-cover " />
+                        <img src={logo} alt="logo" className="object-cover " />
                     </div>
                     <div className="text-white font-bold">
                         <p className="text-[21px] pl-2">VCaller</p>
