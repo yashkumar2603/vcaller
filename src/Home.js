@@ -30,9 +30,9 @@ const Home = () => {
                     {/* Main */}
                     <div className=" flex flex-col items-center justify-center pb-8">
                         <h1 className="text-[50px] md:text-[80px] text-white font-bold pt-12">
-                            Video Chat App
+                            Video Conferencing App
                         </h1>
-                        <p className="text-[26px] text-white  -mt-2">With ZegoCloud</p>
+                        <p className="text-[26px] text-white  -mt-2">By Yash Kumar</p>
                     </div>
 
                     {/* Enter Code */}
@@ -57,7 +57,7 @@ const Home = () => {
                             type="submit"
                             className=" bg-blue-500 hover:bg-blue-400 duration-100 ease-out font-bold w-[5rem] md:w-[7rem] rounded-full py-[5px] md:py-[7px] mt-2 md:mt-4 "
                         >
-                            Go
+                            Join
                         </button>
                     </form>
                 </div>
