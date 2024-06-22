@@ -51,9 +51,6 @@ const Home = () => {
                             <label className="text-[30px] md:text-[40px] font-bold pt-6">
                                 Enter Room Code
                             </label>
-                            <label className="text-[20px] md:text-[15px] pt-4">
-                                Or create one by typing any number which you can then share to others for them to join.
-                            </label>
                             <input
                                 type="text"
                                 placeholder="Enter Room Code"
@@ -64,15 +61,18 @@ const Home = () => {
                         </div>
                         <button
                             type="submit"
-                            className="bg-blue-500 hover:bg-blue-400 duration-100 ease-out font-bold rounded-full py-[5px] md:py-[7px] mt-2 md:mt-4 px-4 md:px-6"
+                            className="bg-blue-500 hover:bg-blue-300 duration-100 ease-out font-bold rounded-full py-[5px] md:py-[7px] mt-2 md:mt-4 px-4 md:px-6"
                         >
                             Join Room
                         </button>
                     </form>
+                    <label className="text-[20px] text-white md:text-[25px] pt-4">
+                        Or
+                    </label>
                     {/* Separate Create Room Button */}
                     <button
                         onClick={createRoom}
-                        className="bg-green-500 hover:bg-green-400 duration-100 ease-out font-bold rounded-full py-[5px] md:py-[7px] mt-4 md:mt-6 px-4 md:px-6"
+                        className="bg-green-500 hover:bg-green-300 duration-100 ease-out font-bold rounded-full py-[5px] md:py-[7px] mt-4 md:mt-6 px-4 md:px-6"
                     >
                         Create Room
                     </button>
