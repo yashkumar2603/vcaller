@@ -20,10 +20,23 @@ const Home = () => {
         navigate("/empty"); // Assuming this is where you want to generate the room code
     };
 
+    const handleLogout = () => {
+        localStorage.removeItem("email"); // Clear the email from localStorage
+        navigate("/"); // Navigate to the sign-in page
+    };
+
     return (
         <div className="">
             {/* Navbar */}
             <Navbar />
+            {/* Logout Button */}
+            <button
+                onClick={handleLogout}
+                className="absolute top-4 right-8 bg-red-500 hover:bg-red-300 text-white font-bold rounded-full py-3 px-4"
+            >
+                Logout
+            </button>
+
             {/* Hero */}
             <div className="relative h-screen">
                 {/* Image */}
