@@ -51,8 +51,8 @@ const EmptyCodePage = () => {
 
     return (
         <div className="flex flex-col items-center justify-center h-screen bg-gray-200 px-4">
-            <h1 className="text-3xl md:text-5xl font-bold mb-4">Room Code Missing</h1>
-            <p className="text-xl md:text-2xl mb-8">You need to enter a room code to join or create a room.</p>
+            <h1 className="text-3xl md:text-5xl font-bold mb-4">Create room code clicking on generate</h1>
+            <p className="text-xl md:text-2xl mb-8">Invite others to join by sending them emails with your room code</p>
             <input
                 type="text"
                 value={name}
